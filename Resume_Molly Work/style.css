@@ -26,6 +26,8 @@ BODY {
   margin:0 auto;
 }
 
+/* contact info */
+
 .menu {
   margin:0;
   padding:0;
@@ -69,7 +71,7 @@ li {
 
 .jobtitle {
   font-size:1.5em;
-  font-weight:600;
+  font-weight:700;
 }
 
 /* job organization */
@@ -88,6 +90,8 @@ li {
   margin-left:0;
 }
 
+/* p text */
+
 .description {
   margin-top:10px;
   margin-bottom:10px;
@@ -95,13 +99,18 @@ li {
   margin-left:0;
 }
 
+/* education section */
+
 #degrees {
   margin-top:5px;
   margin-bottom:0;
   margin-right:0;
   margin-left:0;
   list-style-type:disc;
+  display:list-item;
 }
+
+/* skill section */
 
 #do {
   margin-top:5px;
@@ -109,8 +118,10 @@ li {
   margin-right:0;
   margin-left:0;
   list-style-type:disc;
+  display:list-item;
 }
 
+/* mission statement */
 
 .description.top {
   width:60%;
