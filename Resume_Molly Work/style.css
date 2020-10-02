@@ -38,10 +38,16 @@ li {
 
 /* main title */
 
-strong {
+#title {
   color:#33485e;
   text-transform:uppercase;
   font-size:1.5em;
+  font-weight:600px;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:0;
+  margin-left:0;
+  margin-right:0;
 }
 
 /* section headings */
@@ -94,4 +100,21 @@ strong {
   margin-bottom:0;
   margin-right:0;
   margin-left:0;
+  list-style-type:disc;
+}
+
+#do {
+  margin-top:5px;
+  margin-bottom:0;
+  margin-right:0;
+  margin-left:0;
+  list-style-type:disc;
+}
+
+
+.description.top {
+  width:60%;
+  min-width:300px;
+  margin:0 auto;
+  margin-bottom:30px;
 }
