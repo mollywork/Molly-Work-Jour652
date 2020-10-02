@@ -27,7 +27,19 @@ h2 {
   color:#fff;
 }
 
-.title {
-  font-weight:600;
+h3 {
   font-size:1.5em;
+  font-weight:bold;
+}
+
+h3.title {
+  font-weight:600;
+}
+
+h4 {
+  font-size:1.5em;
+}
+
+h5 {
+
 }
