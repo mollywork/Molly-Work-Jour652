@@ -12,6 +12,7 @@
 h1 {
   font-family: Helvetica, sans-serif;
   font-size: 50px;
+  font-style: italic;
 }
 
 p {
@@ -21,6 +22,7 @@ p {
 
 img {
   width: 900px;
+  margin: 0 auto;
 }
 
 blockquote {
