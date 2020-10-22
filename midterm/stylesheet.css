@@ -1,6 +1,6 @@
 #content {
   margin: 0 auto;
-  width: 900px;
+  width: 700px;
 }
 
 #byline {
@@ -9,25 +9,44 @@
   font-style: italic;
 }
 
+/*Here's the title*/
+
 h1 {
-  font-family: Helvetica, sans-serif;
+  font-family: "Times New Roman", Georgia, Garamond;
   font-size: 50px;
-  font-style: italic;
 }
+
+/*Here's the body text*/
 
 p {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
 
+/*learn more and subheaders. Intro is h3*/
+
 h2 {
-  font-family: Helvetica;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: white;
+  background-color: #7B3487;
+  width: 1200px
+  text-align: center;
+}
+
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  border: 4px solid #C476C2;
+  padding: 15px
 }
 
 img {
-  width: 900px;
+  width: 700px;
   margin: 0 auto;
 }
+
+/*change this to purple*/
 
 blockquote {
   font: 16px/24px normal Helvetica, sans-serif;
