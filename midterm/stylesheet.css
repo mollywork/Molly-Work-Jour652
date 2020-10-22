@@ -30,8 +30,9 @@ h2 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 30px;
   color: white;
-  background-color: #7B3487;
+  background-image: linear-gradient(to right, rgba(128,0,128,1), rgba(128,0,128,0));
   padding: 15px;
+  width: 900px;
 }
 
 h3 {
