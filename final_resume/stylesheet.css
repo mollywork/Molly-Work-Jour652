@@ -7,3 +7,24 @@
 .container {
   font-family: Montserrat, Helvetica, Garamond, sans-serif;
 }
+
+.jumbotron {
+  font-family: Montserrat, Helvetica, Garamond, sans-serif;
+  background-image: url("banner.jpg");
+  text-align: center;
+  height: 900px;
+}
+
+.display-4 {
+  background-color: white;
+}
+
+.lead {
+  background-color: white;
+}
+
+#navbarSupportedContent {
+  background-color: #2E338F;
+  font-family: Montserrat, Helvetica, Garamond, sans-serif;
+  color: white;
+}
