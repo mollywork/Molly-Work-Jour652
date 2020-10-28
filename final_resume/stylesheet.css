@@ -38,15 +38,6 @@
   text-align: center;
 }
 
-.lead {
-  background-color: white;
-  margin-left:300px;
-  margin-right: 300px;
-  padding-bottom: 30px;
-  padding-top:10px;
-  margin-bottom:125px;
-}
-
 #navbarSupportedContent {
   font-family: Montserrat, Helvetica, Garamond, sans-serif;
   margin: -15px;
@@ -59,17 +50,6 @@ li {
   padding-right: 100px;
 }
 
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
 .aboutme {
   border: 4px solid #2E338F;
   padding-top:50px;
@@ -77,20 +57,20 @@ li {
   margin-bottom:70px;
 }
 
-img {
-  padding-bottom:40px;
-  padding-top:20px;
-}
 
 .btn {
   border: 1px solid white;
-  margin-right: 80px;
-  margin-left:30px;
-  margin-bottom:175px;
-  margin-top:175px;
+  text-align: center;
 }
 
 .merrill {
   padding-top:15px;
   padding-bottom:15px
+}
+
+.footer {
+  margin-bottom: -200px;
+
+.headshot {
+  padding:15px;
 }
