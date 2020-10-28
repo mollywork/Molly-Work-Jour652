@@ -36,7 +36,7 @@
   font-size: 50px;
   padding:20px;
   text-align: center;
-  border-radius: 40px;
+  border-radius: 25px;
 }
 
 #navbarSupportedContent {
@@ -58,6 +58,7 @@ li {
   margin-top: 50px;
   margin-bottom:70px;
   padding-bottom: 50px;
+  border-radius: 25px;
 }
 
 
