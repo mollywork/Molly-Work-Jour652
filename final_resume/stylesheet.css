@@ -34,7 +34,7 @@
   background-color: white;
   font-family: Montserrat, Helvetica, Garamond, sans-serif;
   font-size: 50px;
-  padding:15px;
+  padding:20px;
   text-align: center;
 }
 
@@ -70,7 +70,3 @@ li {
 
 .footer {
   margin-bottom: -200px;
-
-.headshot {
-  padding:15px;
-}
