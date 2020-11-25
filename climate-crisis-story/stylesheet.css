@@ -6,31 +6,39 @@
 
 /*Here's the title*/
 
+
 h1 {
-  font-family: Montserrat, Helvetica, Garamond, sans-serif;
+  font-family: Garamond, Helvetica, sans-serif;
   font-size: 50px;
-  font-style: italic;
+  font-style: bold;
 }
 
 /*Here's the body text*/
 
+
 p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 15px;
-  line-height: 1.8;
+  line-height: 2;
 }
 
 img {
-  max-width:800px;
+  width:100%;
 }
 
 h2 {
-  font-family: Montserrat, Helvetica, Garamond, sans-serif;
-  font-size: 30px;
+  font-family: Garamond, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #C71E1D;
+  font-style:bold;
 }
 
 #footnote {
   background-color: black;
   color: white;
   text-align: center;
+}
+
+.row {
+  margin-right: 0px!important;
 }
