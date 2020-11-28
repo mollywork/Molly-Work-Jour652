@@ -1,0 +1,79 @@
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+}
+
+
+h1 {
+  font-family: Garamond, Helvetica, sans-serif;
+  font-size: 50px;
+  font-style: bold;
+}
+
+/*Here's the body text*/
+
+
+p {
+  font-family: Garamond, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 2;
+}
+
+img {
+  width:100%;
+}
+
+#footnote {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.row {
+  margin-right: 0px!important;
+}
+
+blockquote {
+  font: 35px Garamond, Helvetica, sans-serif;
+  color: #red;
+  padding-left: 15px;
+  border-left: 4px solid;
+  background-image: url("fog.jpg");
+}
+
+#letter {
+  font: 65px Garamond, Helvetica, sans-serif;
+  color: #C71E1D;
+  float:left;
+  font-style:bold;
+  margin-top: -15px;
+}
+
+.question {
+  text-align: center;
+  color: red;
+  font: 65px Garamond, Helvetica, sans-serif;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  font: 25px Garamond, Helvetica, sans-serif;
+}
+
+.ghost {
+  background-color: black;
+  color: white;
+}
+
+.fog {
+  background-image: url("fog.jpg");
+}
