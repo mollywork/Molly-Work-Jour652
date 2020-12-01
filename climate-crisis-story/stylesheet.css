@@ -51,11 +51,12 @@ blockquote {
 }
 
 #letter {
-  font: 65px Garamond, serif;
+  font: 60px Garamond, serif;
   color: #C71E1D;
   float:left;
   font-style:bold;
-  margin-top: -15px;
+  margin-top: -8px;
+  padding-right: 8px;
 }
 
 #source {
