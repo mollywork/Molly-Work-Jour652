@@ -61,3 +61,28 @@ blockquote {
 #source {
   font-size: 25px;
 }
+
+.sidebar {
+  border: 1px solid #C71E1D;
+  padding: 15px;
+  margin: 15px;
+}
+
+/* unvisited link */
+a:link {
+  color: #C71E1D;
+}
+
+/* visited link */
+a:visited {
+  color: blue;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: #C71E1D;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}

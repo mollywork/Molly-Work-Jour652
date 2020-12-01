@@ -39,7 +39,6 @@ blockquote {
   color: #red;
   padding-left: 15px;
   border-left: 4px solid;
-  background-image: url("fog.jpg");
 }
 
 #letter {
@@ -76,4 +75,8 @@ button {
 
 .fog {
   background-image: url("fog.jpg");
+}
+
+.caption {
+  font-style: italic;
 }
