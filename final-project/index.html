@@ -12,6 +12,9 @@
  <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
+
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 </head>
@@ -28,7 +31,7 @@
  <div class="collapse navbar-collapse" id="navbarSupportedContent">
    <ul class="navbar-nav mr-auto">
      <li class="nav-item">
-       <a class="nav-link" href="www.merrill.umd.edu">About</a>
+       <a class="nav-link" href="http://www.merrill.umd.edu">About</a>
      </li>
      <li class="nav-item">
        <a class="nav-link" href="mailto:mwork@umd.edu">Contact</a>
@@ -74,7 +77,7 @@
   </div>
   </div>
 
-<div class="row ghost fog">
+<div class="row ghost">
             <div class="col-3">
             </div>
 
@@ -82,9 +85,33 @@
         <p>Then a few weeks later I discovered an image of a man in the background of a photo I took with my own iPhone. The picture was taken in my apartment and the man, whom I can’t identify, was not actually in the apartment at the time. I’ve been using the photo to scare my friends, and myself, ever since.</p>
 
         <p>Recent surveys have shown that a significant portion of the population believes in ghosts, leading some scholars to conclude that we are witnessing a revival of paranormal beliefs in Western society. A Harris poll from last year found that 42 percent of Americans say they believe in ghosts. The percentage is similar in the U.K., where 52 percent of respondents indicated that they believed in ghosts in a recent poll. Though it’s tough to estimate how large the paranormal tourism industry is—tours of sites that are supposedly haunted (rather than staged haunted houses)—there are 10,000 haunted locations in the U.K. according to the country’s tourist board, and sites like HauntedRooms.co.uk list dozens of allegedly haunted hotels where curious visitors can stay. In the U.S., residents of places like Ellicott City in Howard County, Maryland, pride themselves on their haunted heritage.</p>
+      </div>
 
-        <blockquote>“We wouldn’t need cooling centers if we had healthy neighborhoods.” <br><em><br>- Del. Robbyn Lewis of East Baltimore</em></blockquote>
+      <div class="col-3">
+      </div>
+      </div>
 
+
+      <div class="row ghost">
+                  <div class="col-2">
+                  </div>
+
+                  <div class="col-8">
+        <div id="pullquote-top">“What we have is people trying to make sense of something that, to them, seems inexplicable.”</div><br>
+        <div id="pullquote-bottom">- Christopher French, head of the Anomalistic Psychology Research Unit</div>
+      </div>
+
+      <div class="col-2">
+      </div>
+      </div>
+
+
+
+      <div class="row ghost">
+                  <div class="col-3">
+                  </div>
+
+                  <div class="col-6">
         <p>While the terms "spirit" and "ghost"are related and even interchangeable in some languages, the word "ghost" in English tends to refer to the soul or spirit of a deceased person that can appear to the living. In A Natural History of Ghosts, Roger Clarke discusses nine varieties of ghosts identified by Peter Underwood, who has studied ghost stories for decades. Underwood’s classification of ghosts includes elementals, poltergeists, historical ghosts, mental imprint manifestations, death-survival ghosts, apparitions, time slips, ghosts of the living, and haunted inanimate objects.</p>
 
         <p>It seems that belief in ghosts is even more widespread in much of Asia, where ghosts are characterized as neutral and can be appeased through rituals or angered if provoked (as opposed to our scarier depictions of ghosts in the West), according to Justin McDaniel, a professor of religious studies and director of the Penn Ghost Project at the University of Pennsylvania. “[Ghosts in Asia] can be asked for help in healing humans, winning the lottery and protecting one while traveling or while pregnant,” he said. “Like American ghosts, they have an attachment to the human realm which keeps them haunting and helping humans.”</p>
@@ -95,7 +122,44 @@
       </div>
       </div>
 
-  <img src="hungry-ghost.jpg" alt="Hungry Ghost Festival in Hong Kong"><br>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="hungry-ghost.jpg" class="d-block w-100" alt="Hungry Ghost Festival in Hong Kong">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="hungry-ghost.jpg" class="d-block w-100" alt="Hungry Ghost Festival in Hong Kong">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hungry Ghost Festival</h5>
+          <p>Lung Mo Temple, Wing Kwong St, Peng Chau, Hong Kong (Photo by: Rove.me)</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="hungry-ghost.jpg" class="d-block w-100" alt="Hungry Ghost Festival in Hong Kong">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
 
   <div class="row ghost caption">
 
@@ -150,9 +214,32 @@
         <br><p>But it’s also true that if you already believe in ghosts, or are told a place is haunted, you are more likely to interpret events as paranormal. A 2002 study found that believers in ghosts were more likely than non-believers to report unusual phenomena while touring a site in Britain with a reputation for being haunted. Visitors who were told that there was a recent increase in unusual phenomena occurring at the site also reported a higher number of unusual experiences on the tour.</p>
 
         <p>Another study demonstrated that hearing or reading about paranormal narratives, especially when the story came from a credible source, was enough to increase paranormal beliefs among participants. With the abundance of ghost-hunting shows in the U.S. and the UK, like Ghost Hunters, Ghost Adventures and Most Haunted, which is returning to screens this fall, it’s probably not surprising that studies have also linked belief in ghosts with exposure to paranormal-related TV shows.</p>
+      </div>
 
-        <blockquote>“We wouldn’t need cooling centers if we had healthy neighborhoods.” <br><em><br>- Del. Robbyn Lewis of East Baltimore</em></blockquote>
+      <div class="col-3">
+      </div>
+      </div>
 
+
+      <div class="row ghost">
+                  <div class="col-2">
+                  </div>
+
+                  <div class="col-8">
+        <div id="pullquote-top">"Even though we find the idea of ghosts and spirits scary, in a wider context, they provide evidence for the survival of the soul.”</div><br>
+        <div id="pullquote-bottom">- Christopher French, head of the Anomalistic Psychology Research Unit</div>
+      </div>
+
+      <div class="col-2">
+      </div>
+      </div>
+
+
+      <div class="row ghost">
+                  <div class="col-3">
+                  </div>
+
+                  <div class="col-6">
         <p>“What we have is people trying to make sense of something that, to them, seems inexplicable,” says Christopher French, a professor of psychology and head of the Anomalistic Psychology Research Unit at Goldsmiths, University of London, “So you get the misinterpretation of noises or visual effects that do have a normal explanation, but not one that people can think of. People assume that if they cannot explain something in natural terms, then it must be something paranormal.”</p>
 
         <p>According to French, hallucinations are more common among the general population than most people realize, and are sometimes wrongly interpreted as ghosts. He points to sleep paralysis—a phenomenon that occurs when someone wakes up while still in the dream-inducing REM stage of sleep, in which your body is paralyzed— as one example. Studies have shown that around 30 to 40 percent of people have experienced sleep paralysis at least once in their lives, with about five percent of participants reporting visual and audio hallucinations, including the presence of monstrous figures, and difficulty breathing.</p><br>
