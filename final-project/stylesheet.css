@@ -66,6 +66,9 @@ img {
   text-align: center;
   color: red;
   font: 65px Garamond, Helvetica, sans-serif;
+  padding-top: 120px;
+  padding-bottom: 30px;
+  line-height: 1.5;
 }
 
 button {
@@ -92,4 +95,8 @@ button {
 
 .caption {
   font-style: italic;
+}
+
+.infographic {
+  padding-top: 50px;
 }
