@@ -64,7 +64,7 @@ img {
 
 .question {
   text-align: center;
-  color: red;
+  color: #C71E1D;
   font: 65px Garamond, Helvetica, sans-serif;
   padding-top: 120px;
   padding-bottom: 30px;
@@ -74,7 +74,7 @@ img {
 button {
   border: none;
   color: white;
-  background-color: red;
+  background-color: #C71E1D;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
