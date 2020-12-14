@@ -49,7 +49,7 @@ img {
   padding-bottom: 25px;
   margin-bottom: 50px;
   border-bottom: 1px solid white;
-  color:#C71E1D;
+  color: white;
   background-color: black;
   font-style: italic;
 }
@@ -100,4 +100,22 @@ button {
 
 .infographic {
   padding-top: 50px;
+}
+
+/* unvisited link */
+a:link {
+  text-decoration:underline;
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  text-decoration:underline;
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration:underline;
+  color: #C71E1D;
 }
