@@ -67,7 +67,7 @@ img {
   text-align: center;
   color: #C71E1D;
   font: 65px Garamond, Helvetica, sans-serif;
-  padding-top: 120px;
+  padding-top: 50px;
   padding-bottom: 30px;
   line-height: 1.5;
 }
@@ -91,7 +91,7 @@ button {
 }
 
 .fog {
-  background-image: url("fog.jpg");
+  background-color: black;
 }
 
 .caption {
@@ -118,4 +118,10 @@ a:visited {
 a:hover {
   text-decoration:underline;
   color: #C71E1D;
+}
+
+@media only screen and (max-width: 768px) {
+    #hide {
+        display: none;
+    }
 }
